@@ -1,0 +1,2 @@
+Keyboard [brand=Logitech, type=Wireless, numberOfKeys=104]
+Keyboard [brand=Corsair, type=Wired, numberOfKeys=105], Switch Type=Cherry MX Red
