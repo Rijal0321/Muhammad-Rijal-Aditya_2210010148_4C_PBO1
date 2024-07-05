@@ -52,7 +52,7 @@ keyboards[count] = new Keyboard(brand, model, type);
         this.model = model;
         setType(type); 
 }
-
+...
 public MechanicalKeyboard(String brand, String model, String switchType) {
         super(brand, model, "mechanical");
         this.switchType = switchType;
@@ -126,7 +126,7 @@ public void displayInfo() {
         System.out.println("Model: " + getModel());
         System.out.println("Type: " + getType());
 }
-
+...
 @Override
     public void displayInfo() {
         super.displayInfo();
@@ -201,7 +201,7 @@ System.out.println("2. Tampilkan Semua Keyboard");
 System.out.println("3. Keluar");
 System.out.print("Pilih opsi: ");
 int option = Integer.parseInt(scanner.nextLine());
-
+...
 keyboards[i].displayInfo();
 System.out.println();
 ```
@@ -217,6 +217,7 @@ Keyboard[] keyboards = new Keyboard[5];
 ```bash
 try {
     // code that might throw an exception
+...
 } catch (NumberFormatException e) {
       System.out.println("Input tidak valid, harap masukkan angka!");
 }catch (Exception e) {
